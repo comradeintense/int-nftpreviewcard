@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+
+		<title>Frontend Mentor | NFT preview card component</title>
+	</head>
+	<body>
+		<main class="flex items-center justify-center h-screen text-lg font-Outfit bg-very_dark_blue_main lg:py-[152px]">
+			<article class="w-[327px] h-[543px] lg:w-[350px] lg:h-[596px] mx-6 bg-very_dark_blue_card p-[24px] rounded-[15px] lg:pb-8 lg:shadow-myshadow">
+				<section class="relative overflow-hidden rounded-[8px] group w-[278px] lg:w-[302px]">
+					<img src="image-equilibrium.jpg" alt="" />
+					<div
+						class="absolute top-0 left-0 flex items-center justify-center w-full h-0 opacity-0 hover:cursor-pointer group-hover:h-full group-hover:bg-blend-overlay group-hover:bg-soft_cyan_overlay group-hover:opacity-100"
+					>
+						<img class="group-hover:opacity-100" src="icon-view.svg" alt="" />
+					</div>
+				</section>
+				<section class="mt-6">
+					<h2 class="text-white font-semibold text-[22px] hover:text-soft_cyan"><a href="#">Equilibrium #3429</a></h2>
+					<p class="text-soft_blue mt-3 lg:mt-4 leading-[26px] font-light">Our Equilibrium collection promotes balance and calm.</p>
+					<div class="mt-4 lg:mt-6 flex justify-between items-center">
+						<div class="h-[19px] lg:h-[20px] justify-center items-center gap-[6.485px] flex">
+							<img class="h-[19px] w-[11px]" src="icon-ethereum.svg" alt="" />
+							<p class="text-[15px] font-semibold text-soft_cyan lg:text-[16px]">0.041 ETH</p>
+						</div>
+						<div class="flex h-[19px] justify-center items-center gap-[7.695px] pr-[1px]">
+							<img class="w-[16px]" src="icon-clock.svg" alt="" />
+							<p class="text-soft_blue text-[15px] font-normal lg:text-[16px]">3 days left</p>
+						</div>
+					</div>
+					<hr class="mt-4 lg:mt-6 border-0 bg-very_dark_blue_line h-px" />
+					<div class="h-8 mt-4 flex items-center">
+						<img class="h-[33px] w-[33px] rounded-full ring-1 ring-white mr-4" src="image-avatar.png" alt="" />
+						<div class="flex justify-center items-start gap-[5px]">
+							<p class="text-[15px] lg:text-[16px] text-soft_blue font-normal">Creation of</p>
+							<a href="#" class="text-white hover:text-soft_cyan cursor-pointer text-[15px] lg:text-[16px]">Jules Wyvern</a>
+						</div>
+					</div>
+				</section>
+			</article>
+		</main>
+		<script type="module" src="/main.js"></script>
+	</body>
+</html>
